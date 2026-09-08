@@ -1,9 +1,10 @@
 {
-  "version": "3.7.1",
+  "version": "3.8.0",
   "base_version": "nuitka-4",
   "channel": "stable",
-  "release_notes": "린클랩 2PC 업데이트 (v3.7.1)\n● 법사가 실행 직후 꺼지던 문제를 고쳤어요.",
+  "release_notes": "린클랩 2PC 업데이트 (v3.8.0)\n● 파티 사냥에서 힐이 법사 자신에게만 계속 나가던 문제를 고쳤어요. 이제 체력이 가장 낮은 파티원에게 힐이 갑니다.\n● 체력이 가득 찬 상태에서 자동귀환이 갑자기 눌리던 오작동을 고쳤어요. 화면을 제대로 못 읽었을 때는 아무 것도 하지 않고 넘어가요.\n● 자동사냥을 켜고 채팅창을 크게 했을 때 체력을 못 읽던 경우가 줄었어요.\n● 프로그램이 보내는 진단 정보를 줄였어요. 쓰시는 데 달라지는 건 없어요.",
   "changelog": {
+    "3.8.0": "● 파티 사냥에서 힐이 법사 자신에게만 계속 나가던 문제를 고쳤어요. 이제 체력이 가장 낮은 파티원에게 힐이 갑니다.\n● 체력이 가득 찬 상태에서 자동귀환이 갑자기 눌리던 오작동을 고쳤어요. 화면을 제대로 못 읽었을 때는 아무 것도 하지 않고 넘어가요.\n● 자동사냥을 켜고 채팅창을 크게 했을 때 체력을 못 읽던 경우가 줄었어요.\n● 프로그램이 보내는 진단 정보를 줄였어요. 쓰시는 데 달라지는 건 없어요.",
     "3.7.1": "● 법사가 실행 직후 꺼지던 문제를 고쳤어요.",
     "3.7.0": "● 격수앱·법사앱 화면을 새로 만들었어요. 글자와 버튼이 크고 또렷해졌어요.\n● 파티 모드가 열렸어요. 격수 창 위쪽에서 「솔로 모드」와 「파티 모드」를 눌러 바꿔요.\n● 8월 31일까지는 모든 회원이 파티 모드를 무료로 써 볼 수 있어요. 9월 1일부터는 「솔로+파티」 상품을 쓰는 분만 열려요.\n● 파티 모드에서는 파티창의 체력을 보고 가장 다친 사람에게 힐을 줘요.\n● 만피인데 갑자기 마을로 돌아가던 문제를 고쳤어요.\n● 공유기를 바꾼 뒤 두 컴퓨터가 서로를 못 찾던 문제를 고쳤어요. 앱이 켜질 때 스스로 확인해요.\n● 설치가 실패하던 문제를 고쳤어요.",
     "3.6.2": "● 체력을 제대로 못 읽은 순간에 엉뚱한 값을 만들어 쓰던 것을 고쳤습니다\n● 죽기 직전 체력을 실제보다 높게 읽던 것을 고쳤습니다\n● 힐 간격이 짧아졌습니다\n● 게임 창이 꺼져 있을 때 \"체력을 못 읽었다\"고 잘못 알리던 것을 고쳤습니다\n● 세트 번호는 1~9 까지만 쓸 수 있습니다\n● 인터넷이 안 되는 곳에서도 앱이 바로 켜집니다\n● 자동귀환 안내가 화면 한가운데에서 위쪽으로 옮겨졌습니다\n● 법사 창이 작아지고, 두 창에 스크롤이 생겼습니다\n● 게임 화면 안내를 위쪽 네 줄로 정리했습니다\n● 문제가 생겼을 때 원인을 더 정확히 찾을 수 있도록 앱이 남기는 기록을 보강했습니다\n● 격수 앱도 같이 업데이트해 주세요",
@@ -22,16 +23,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/3.7.1/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "6a3bb8d319c3b789c00498b1f317973152b8a617d8dd03c0b09aa488086f3c0a",
-      "update_url": "https://dl.lincllab.com/3.7.1/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "0e165a88895f7ebb94f8e0e43c55431cc6c5f082f22693aede6939bba3674cd6"
+      "download_url": "https://dl.lincllab.com/3.8.0/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "aabad75d6fca90547c3e82dea834d25f27437be447086f830f060adeecad69cb",
+      "update_url": "https://dl.lincllab.com/3.8.0/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "44174654ec4b098cb4cb90c2437efac05a2f76022f6e24bfbb9a74884a3e06e9"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/3.7.1/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "46a3b1634f8c2880a12894e00a522354bb0978e357e898bff2eb6d15fe274cf7",
-      "update_url": "https://dl.lincllab.com/3.7.1/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "0a5e0f78fea933fa45855fa4a1c9c5e680c49d3078d2433e164f028addda9b7c"
+      "download_url": "https://dl.lincllab.com/3.8.0/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "a430f9d606d6dfd1d07c4769a956300384191f0a29f7d722274e5bebb7c2f895",
+      "update_url": "https://dl.lincllab.com/3.8.0/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "8d1018ec225ca641a34e5672b76a294bceebfe03b40a4bd8c10296a09b49121d"
     }
   }
 }
